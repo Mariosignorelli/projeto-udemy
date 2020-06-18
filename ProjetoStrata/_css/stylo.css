@@ -18,7 +18,7 @@ p {
 h1,h2,h3,h4,h5,h6 {
     color: #787878;
     font-weight: normal;
-    margin: 0 0 1em;
+    margin:  1em 0 0 ;
 }
 h1 {
     font-size: 36px;
@@ -56,6 +56,25 @@ blockquote {
 }
 pre code {
     display: block;.
+}
+ul ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    padding-left: 1em;
+}
+li {
+    padding: .5em;
+}
+.ul-alternada {
+list-style-type: none;
+}
+ .ul-alternada li{
+    border-bottom: 2px solid #cccccc93;
+    padding-left: 0;
+}
+.icones {
+   
 }
 
 
